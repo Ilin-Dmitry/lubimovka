@@ -46,6 +46,9 @@ export default defineComponent({
 <style scoped lang="scss">
 h3 {
   margin: 40px 0 0;
+  &:hover {
+    color: red;
+  }
 }
 ul {
   list-style-type: none;
